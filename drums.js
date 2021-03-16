@@ -53,7 +53,7 @@ function playClipC() {
     }
 
 
-window.addEventListener("keydown", function (pressed) {
+window.addEventListener("keypress", function (pressed) {
         if (pressed.key == 'Q') {playClipQ()}
         else if (pressed.key == 'q') {playClipQ()}
         else if (pressed.key == 'W') {playClipW()}

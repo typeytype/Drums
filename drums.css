@@ -5,3 +5,8 @@ body {
 .drum-pad {
     height:100px
 }
+
+#drum-machine {
+    margin: auto;
+    text-align: center;
+}

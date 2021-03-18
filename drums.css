@@ -1,9 +1,23 @@
 body {
-    background-color: green;
+    background-color: #262626;
+    font-family: Helvetica;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+#display {
+    color: white;
+    text-align: center;
 }
 
 .drum-pad {
-    height:100px
+    height:100px;
+    width: 100px;
+    border: 10px solid red;
+    border-radius: 50%;
 }
 
 #drum-machine {
